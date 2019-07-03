@@ -1,0 +1,28 @@
+@import '../../styles/variables.scss';
+
+.main-header {
+  display: flex;
+  justify-content: start;
+  height: 4.5rem;
+  position: fixed;
+  background-color: $primaryDark;
+  align-items: center;
+  width: 100%;
+
+  .main-header-logo {
+    width: 6rem;
+  }
+
+  .main-menu {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+
+    .main-menu-item {
+      color: white;
+      text-decoration-line: unset;
+    }
+  }
+
+}
